@@ -1,3 +1,6 @@
+import { InvalidArgumentError } from "../errors";
+export { InvalidArgumentError };
+
 /**
  * n! (nの階乗)を計算する
  * @param n 求めたいn
@@ -12,8 +15,3 @@ export function calcFactorial(n: number): number {
   }
   return result;
 }
-function isInteger(n: number): boolean {
-  return n % 1 === 0;
-}
-
-export class InvalidArgumentError extends Error {}
