@@ -1,3 +1,4 @@
+import { isInteger } from "../domain/isInteger";
 import { InvalidArgumentError } from "../errors";
 export { InvalidArgumentError };
 
