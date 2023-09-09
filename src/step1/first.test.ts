@@ -1,3 +1,4 @@
-test("hello", () => {
-  expect(true).toBe(true);
+
+test("Hello Jest", () => {
+  // ここに書く
 });

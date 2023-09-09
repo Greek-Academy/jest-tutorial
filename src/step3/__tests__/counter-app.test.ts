@@ -1,4 +1,4 @@
-import { CounterApp } from "../CounterApp";
+import { CounterApp } from "../counter-app";
 
 describe('CounterApp', () => {
   

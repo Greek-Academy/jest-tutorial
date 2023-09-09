@@ -1,9 +1,5 @@
 import axios, { AxiosStatic } from 'axios';
-import { FormApp } from '../FormApp';
-
-// jest.mock('axios');
-
-// const mockedAxios = axios as jest.Mocked<AxiosStatic>;
+import { FormApp } from '../form-app';
 
 const mockedPost = jest.spyOn(axios, 'post')
 
@@ -11,9 +7,8 @@ describe('FormApp', () => {
   const app = new FormApp();
 
   test('successが返ってくるケース', async () => {
-    mockedPost.mockResolvedValue({
-      status: 'OK'
-    });
+    // TODO: mockResolvedValue() を使って、モックを実装する
+    
     const result = await app.submitForm({
       message: 'test',
       value: 123
@@ -21,13 +16,7 @@ describe('FormApp', () => {
     expect(result).toBe(true);
   })
   test('errorが返ってくるケース', async () => {
-    mockedPost.mockImplementation(async () => {
-      return { status : 'ERROR' };
-    });
-    const result = await app.submitForm({
-      message: 'test',
-      value: 456
-    });
-    expect(result).toBe(false);
+    
+    // TODO: エラーになるテストケースを書く
   })
 })

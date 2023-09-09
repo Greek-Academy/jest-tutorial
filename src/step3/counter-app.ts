@@ -11,6 +11,6 @@ export class CounterApp {
   }
 
   private hiddenAction() {
-    console.info('hiddenActionが実行されました')
+    console.info('hiddenActionが実行されました');
   }
 }

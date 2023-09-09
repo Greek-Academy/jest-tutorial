@@ -8,6 +8,9 @@ dependencies:
   axios:
     specifier: ^1.5.0
     version: 1.5.0
+  timers-promises:
+    specifier: ^1.0.1
+    version: 1.0.1
 
 devDependencies:
   '@types/jest':
@@ -2204,6 +2207,10 @@ packages:
       glob: 7.2.3
       minimatch: 3.1.2
     dev: true
+
+  /timers-promises@1.0.1:
+    resolution: {integrity: sha512-u87PAM7pIloXOxGcjqfDRQB72NG8DIVKafVafHgixzlsPlLnZTw9IkiX/WYSAqK1SkRAc6J2I/SUrBiswGvNiA==}
+    dev: false
 
   /tmpl@1.0.5:
     resolution: {integrity: sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==}

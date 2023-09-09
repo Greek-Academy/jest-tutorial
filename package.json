@@ -1,6 +1,9 @@
 {
   "name": "jest-tutorial",
   "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.4",
     "jest": "^29.6.4",
@@ -8,6 +11,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "axios": "^1.5.0"
+    "axios": "^1.5.0",
+    "timers-promises": "^1.0.1"
   }
 }
